@@ -6,5 +6,5 @@ test:
 
 production:
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
+  url: redis://redistogo:6f87a78dde74e60c6aaa99655ba1815c@barb.redistogo.com:10267/
   channel_prefix: rails-chatapp-actioncable_production
